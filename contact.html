@@ -3,25 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Team Skills Hub</title>
+  <title>Байланыс — Team Skills Hub</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header>
-    <h1>Team Skills Hub</h1>
-    <p>Мухаммеджан • Айкен • Аружан</p>
+    <h1>Байланыс</h1>
     <nav>
       <a href="index.html">Басты бет</a>
       <a href="team.html">Команда</a>
       <a href="projects.html">Жобалар</a>
-      <a href="contact.html">Байланыс</a>
     </nav>
   </header>
 
-  <main class="intro">
-    <h2>Қош келдіңіз!</h2>
-    <p>Біз — Team Skills Hub. HTML, CSS, JavaScript арқылы веб-жобалар жасаймыз.</p>
-    <button id="cta">Біздің жұмысымызды көру</button>
+  <main class="contact">
+    <h2>Хабарлама жіберіңіз</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Атыңыз" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" placeholder="Хабарлама" rows="5"></textarea>
+      <button type="submit">Жіберу</button>
+    </form>
   </main>
 
   <footer>
